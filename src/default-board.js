@@ -1,4 +1,4 @@
-import { uuid } from "./utils";
+// import { uuid } from "./utils";
 
 export default {
   name: "workshop",
@@ -9,19 +9,19 @@ export default {
         {
           description: "The bag is in the room",
           name: "first task",
-          id: uuid(),
+          id: "cc1743b41ef6d",
           userAssigned: null
         },
         {
           description: "",
           name: "second task",
-          id: uuid(),
+          id: "f47fa822072f9",
           userAssigned: null
         },
         {
           description: "",
           name: "and thrid",
-          id: uuid(),
+          id: "c80f09e0cffcf",
           userAssigned: null
         }
       ]
@@ -32,7 +32,7 @@ export default {
         {
           description: "",
           name: "first task",
-          id: uuid(),
+          id: "8f2f4566bff55",
           userAssigned: null
         }
       ]
@@ -43,7 +43,7 @@ export default {
         {
           description: "",
           name: "first task",
-          id: uuid(),
+          id: "52c94e2bd2423",
           userAssigned: null
         }
       ]
