@@ -1,7 +1,11 @@
 import Vue from "vue";
-import App from "./App.vue";
+import "./plugins/fontawesome";
+import App from "./App";
+import AppButton from "./components/AppButton";
 import router from "./router";
 import store from "./store";
+
+Vue.component("AppButton", AppButton);
 
 Vue.config.productionTip = false;
 
