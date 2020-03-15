@@ -29,6 +29,12 @@ export default new Vuex.Store({
     CREATE_TASK(state, { tasks, name }) {
       tasks.push({ name, id: uuid(), description: "" });
     },
+    CREATE_COLUMN(state, { name }) {
+      state.board.columns.push({
+        name,
+        tasks: []
+      });
+    },
     UPDATE_TASK(state, { task, key, value }) {
       // task[key] = value;
       Vue.set(task, key, value);
